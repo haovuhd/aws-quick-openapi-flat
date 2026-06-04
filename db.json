@@ -1,0 +1,161 @@
+{
+  "employees": [
+    {
+      "id": 1, "employee_name": "Alice Johnson", "email": "alice.johnson@example.com",
+      "department_name": "Engineering", "department_location": "San Francisco",
+      "job_title": "Senior Software Engineer",
+      "base_salary": 120000, "bonus": 15000,
+      "employment_status": "Active",
+      "hire_date": "2021-03-15", "contract_end_date": null,
+      "skills": "Python, AWS, Terraform, Docker",
+      "certifications": "AWS Solutions Architect (2022-05-10), Kubernetes CKA (2023-01-20)",
+      "manager_name": null
+    },
+    {
+      "id": 2, "employee_name": "Bob Smith", "email": "bob.smith@example.com",
+      "department_name": "Marketing", "department_location": "New York",
+      "job_title": "Marketing Manager",
+      "base_salary": 95000, "bonus": 10000,
+      "employment_status": "Active",
+      "hire_date": "2020-07-01", "contract_end_date": null,
+      "skills": "SEO, Content Strategy, Google Analytics",
+      "certifications": "Google Analytics Certified (2021-08-15)",
+      "manager_name": null
+    },
+    {
+      "id": 3, "employee_name": "Carol White", "email": "carol.white@example.com",
+      "department_name": "HR", "department_location": "San Francisco",
+      "job_title": "HR Specialist",
+      "base_salary": 72000, "bonus": 5000,
+      "employment_status": "Active",
+      "hire_date": "2022-01-10", "contract_end_date": null,
+      "skills": "Recruiting, Employee Relations, HRIS",
+      "certifications": "",
+      "manager_name": null
+    },
+    {
+      "id": 4, "employee_name": "David Lee", "email": "david.lee@example.com",
+      "department_name": "Engineering", "department_location": "San Francisco",
+      "job_title": "DevOps Engineer",
+      "base_salary": 115000, "bonus": 12000,
+      "employment_status": "Active",
+      "hire_date": "2021-09-20", "contract_end_date": null,
+      "skills": "Kubernetes, CI/CD, AWS, Linux",
+      "certifications": "AWS DevOps Professional (2022-11-03)",
+      "manager_name": "Alice Johnson"
+    },
+    {
+      "id": 5, "employee_name": "Emma Brown", "email": "emma.brown@example.com",
+      "department_name": "Sales", "department_location": "Chicago",
+      "job_title": "Sales Executive",
+      "base_salary": 78000, "bonus": 20000,
+      "employment_status": "Active",
+      "hire_date": "2023-02-14", "contract_end_date": null,
+      "skills": "Salesforce, Negotiation, B2B Sales",
+      "certifications": "",
+      "manager_name": "Noah Garcia"
+    },
+    {
+      "id": 6, "employee_name": "Grace Chen", "email": "grace.chen@example.com",
+      "department_name": "Finance", "department_location": "New York",
+      "job_title": "Financial Analyst",
+      "base_salary": 88000, "bonus": 9000,
+      "employment_status": "Active",
+      "hire_date": "2021-11-05", "contract_end_date": null,
+      "skills": "Financial Modeling, Excel, SAP",
+      "certifications": "CFA Level II (2023-06-01)",
+      "manager_name": null
+    },
+    {
+      "id": 7, "employee_name": "Noah Garcia", "email": "noah.garcia@example.com",
+      "department_name": "Sales", "department_location": "Chicago",
+      "job_title": "Sales Director",
+      "base_salary": 130000, "bonus": 25000,
+      "employment_status": "Active",
+      "hire_date": "2020-02-28", "contract_end_date": null,
+      "skills": "Sales Strategy, Team Leadership, Forecasting",
+      "certifications": "",
+      "manager_name": null
+    },
+    {
+      "id": 8, "employee_name": "James Taylor", "email": "james.taylor@example.com",
+      "department_name": "Sales", "department_location": "Chicago",
+      "job_title": "Account Manager",
+      "base_salary": 82000, "bonus": 15000,
+      "employment_status": "Inactive",
+      "hire_date": "2019-05-30", "contract_end_date": "2024-03-15",
+      "skills": "CRM, Account Management",
+      "certifications": "",
+      "manager_name": "Noah Garcia"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1, "department_name": "Engineering", "headcount": 50,
+      "annual_budget": 2500000, "budget_spent": 1800000,
+      "department_head_name": "Alice Johnson", "department_head_email": "alice.johnson@example.com",
+      "city": "San Francisco", "state": "CA", "country": "US",
+      "sub_teams": "Backend, Frontend, DevOps, QA"
+    },
+    {
+      "id": 2, "department_name": "Marketing", "headcount": 18,
+      "annual_budget": 900000, "budget_spent": 650000,
+      "department_head_name": "Bob Smith", "department_head_email": "bob.smith@example.com",
+      "city": "New York", "state": "NY", "country": "US",
+      "sub_teams": "Content, Digital, Brand"
+    },
+    {
+      "id": 3, "department_name": "HR", "headcount": 12,
+      "annual_budget": 600000, "budget_spent": 420000,
+      "department_head_name": "Carol White", "department_head_email": "carol.white@example.com",
+      "city": "San Francisco", "state": "CA", "country": "US",
+      "sub_teams": "Recruiting, Compensation"
+    },
+    {
+      "id": 4, "department_name": "Sales", "headcount": 30,
+      "annual_budget": 1200000, "budget_spent": 900000,
+      "department_head_name": "Noah Garcia", "department_head_email": "noah.garcia@example.com",
+      "city": "Chicago", "state": "IL", "country": "US",
+      "sub_teams": "Enterprise, SMB"
+    },
+    {
+      "id": 5, "department_name": "Finance", "headcount": 15,
+      "annual_budget": 750000, "budget_spent": 500000,
+      "department_head_name": "Grace Chen", "department_head_email": "grace.chen@example.com",
+      "city": "New York", "state": "NY", "country": "US",
+      "sub_teams": "Accounting, FP&A"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1, "project_name": "Platform Migration",
+      "department_name": "Engineering",
+      "project_status": "InProgress",
+      "start_date": "2024-01-15", "end_date": "2024-12-31",
+      "budget_allocated": 500000, "budget_spent": 320000,
+      "project_lead_name": "Alice Johnson",
+      "milestones": "Assessment (Completed), Migration (InProgress), Validation (Planned)",
+      "team_member_count": 2
+    },
+    {
+      "id": 2, "project_name": "Brand Refresh Campaign",
+      "department_name": "Marketing",
+      "project_status": "InProgress",
+      "start_date": "2024-03-01", "end_date": "2024-09-30",
+      "budget_allocated": 150000, "budget_spent": 95000,
+      "project_lead_name": "Bob Smith",
+      "milestones": "Research (Completed), Creative (InProgress), Launch (Planned)",
+      "team_member_count": 1
+    },
+    {
+      "id": 3, "project_name": "Q4 Sales Push",
+      "department_name": "Sales",
+      "project_status": "Planned",
+      "start_date": "2024-10-01", "end_date": "2024-12-31",
+      "budget_allocated": 200000, "budget_spent": 0,
+      "project_lead_name": "Noah Garcia",
+      "milestones": "Target Setting (Planned), Execution (Planned)",
+      "team_member_count": 3
+    }
+  ]
+}
