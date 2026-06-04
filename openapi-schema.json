@@ -2,7 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "HRManagement",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "HR Management API for querying and managing employees, departments, and projects with flattened schema optimized for Amazon Q Business agents"
   },
   "servers": [
     {
@@ -54,6 +55,10 @@
                     "description": "Department the employee will belong to",
                     "enum": ["Engineering", "Marketing", "HR", "Sales", "Finance"]
                   },
+                  "department_location": {
+                    "type": "string",
+                    "description": "Office location of the department, for example San Francisco, New York, Chicago"
+                  },
                   "job_title": {
                     "type": "string",
                     "description": "Job title or role of the new employee"
@@ -75,6 +80,19 @@
                     "type": "string",
                     "format": "date",
                     "description": "The employee start date in ISO-8601 format (YYYY-MM-DD)"
+                  },
+                  "contract_end_date": {
+                    "type": "string",
+                    "format": "date",
+                    "description": "The last day of the employee contract in ISO-8601 format (YYYY-MM-DD), or leave empty if still active"
+                  },
+                  "skills": {
+                    "type": "string",
+                    "description": "Comma-separated list of employee skills, for example Python, AWS, Docker"
+                  },
+                  "certifications": {
+                    "type": "string",
+                    "description": "Comma-separated list of professional certifications with dates, for example AWS Solutions Architect (2022-05-10), CKA (2023-01-20)"
                   },
                   "manager_name": {
                     "type": "string",
